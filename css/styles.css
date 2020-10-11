@@ -74,6 +74,17 @@ body{
   margin-top: -30px;
 }
 
+
+.main {
+  padding: 80px 150px 80px 100px;
+}
+
+.main img{
+  float: left;
+  width: 320px;
+  margin-right:20px;
+}
+
 .main h1{
   color: #2ce8f4;
   font-weight: bold;
@@ -84,6 +95,7 @@ body{
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 40px;
 }
 
 .main h3{
@@ -97,6 +109,7 @@ body{
   color: white;
   font-size: 18px;
   line-height: 22px;
+  text-align: justify;
 }
 
 .caminho {
