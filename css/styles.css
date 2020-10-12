@@ -155,7 +155,7 @@ body{
   width: 128px;
   margin-right: 15px;
 }
-
+/* Miniatura */
 .miniatura{
   width: 400px;
   height: 400px;
@@ -200,6 +200,7 @@ body{
   color: #2ce8f4;
 }
 
+/* Animações*/
 @keyframes profile-capa{
   0% {opacity: 0; transform: translate(0px, 45px)}
   100% {opacity: 1; transform: translate(0px, 0px)}
@@ -219,4 +220,85 @@ body{
   0% {opacity: 0;}
   50% {opacity: 0}
   100% {opacity: 1;}
+}
+
+/* Resposividade com Media Query*/
+@media (max-width: 1000px){
+
+/* Tela inicial*/
+.navigation li{
+  display: none;
+}
+
+.navigation li.threeline-icon{
+  display: inline-block;
+}
+
+.capa div {
+  display: block;
+  height: auto;
+}
+
+.profile-pic{
+  width: 100%
+  background-color: blue;
+}
+
+.profile-pic img{
+  margin-top: 100px;
+  margin-left: 150px;
+  max-width: 80%;
+}
+
+.profile-title{
+  margin-left: 85px;
+  width: 100%
+  background-color: purple;
+}
+
+.profile-title h1{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 32px;
+}
+
+.profile-title h2{
+  margin-left: -10px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+/* Classe Main*/
+.main {
+  padding: 10px 5% 40px 5%;
+}
+
+.main p{
+  text-align: left;
+  line-height: 30px;
+}
+
+.caminho li{
+  font-size: 12px;
+}
+
+/* Sobre*/
+.sobre-pic{
+  float: none;
+  max-width: 100%;
+  margin-right:20px;
+}
+
+/* Social media*/
+.social-img{
+  width: 64px;
+  margin-right: 15px;
+}
+
+.blackbox{
+  opacity: 0.7;
+}
+
+
 }
