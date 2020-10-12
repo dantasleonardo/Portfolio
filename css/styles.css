@@ -72,7 +72,7 @@ body{
 .profile-pic img{
   width: 400px;
   border-radius: 400px;
-  margin-top: 250px;
+  margin-top: 120px;
 }
 
 .profile-title {
@@ -86,7 +86,7 @@ body{
 
 .profile-title h1{
   font-size: 66px;
-  margin-top: 380px;
+  margin-top: 280px;
   text-transform: uppercase;
 }
 
@@ -246,12 +246,12 @@ body{
 
 .profile-pic img{
   margin-top: 100px;
-  margin-left: 150px;
+  margin-left: 350px;
   max-width: 80%;
 }
 
 .profile-title{
-  margin-left: 85px;
+  margin-left: 200px;
   width: 100%
   background-color: purple;
 }
