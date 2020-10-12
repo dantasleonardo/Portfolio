@@ -31,6 +31,19 @@ body{
   font-size: 18px;
 }
 
+.navigation a{
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:hover{
+  color: #b220ef;
+}
+
+.navigation li.threeline-icon{
+  display: none;
+}
+
 .capa {
   color: #2ce8f4;  
 }
@@ -122,6 +135,10 @@ body{
   display: inline-block;
 }
 
+.caminho a{
+  color: grey;
+}
+
 .social-img{
   width: 128px;
   margin-right: 15px;
@@ -163,4 +180,8 @@ body{
   text-transform: none;
   margin-top: 0;
   color: white;
+}
+
+.back-link{
+  color: #2ce8f4;
 }
