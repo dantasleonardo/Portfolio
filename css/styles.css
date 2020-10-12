@@ -13,6 +13,9 @@ body{
   background-color: #484848;
   color: white;
   height: 50px;
+
+  animation-name: navegacao;
+  animation-duration: 4s;
 }
 
 .navigation ul{
@@ -61,6 +64,9 @@ body{
   background-color: ;
   width: 40%;
   text-align: center;
+
+  animation-name: profile-capa;
+  animation-duration: 2s;
 }
 
 .profile-pic img{
@@ -73,6 +79,9 @@ body{
   background-color: ;
   vertical-align: top;
   width: 59%;
+
+  animation-name: titulo-capa;
+  animation-duration: 2s;
 }
 
 .profile-title h1{
@@ -90,6 +99,9 @@ body{
 
 .main {
   padding: 80px 150px 80px 100px;
+
+  animation-name: conteudo;
+  animation-duration: 2s;
 }
 
 .sobre-pic{
@@ -159,10 +171,12 @@ body{
   background-color: black;
   opacity: 0;
   padding-top: 150px;
+  transition: 1s;
 }
 
 .blackbox:hover{
     opacity: 0.8;
+    transition: 1s;
 }
 
 .blackbox-text{
@@ -184,4 +198,25 @@ body{
 
 .back-link{
   color: #2ce8f4;
+}
+
+@keyframes profile-capa{
+  0% {opacity: 0; transform: translate(0px, 45px)}
+  100% {opacity: 1; transform: translate(0px, 0px)}
+}
+
+@keyframes titulo-capa{
+  0% {opacity: 0; transform: translate(0px, -45px)}
+  100% {opacity: 1; transform: translate(0px, 0px)}
+}
+
+@keyframes conteudo{
+  0% {opacity: 0; transform: translate(-30px, 0px)}
+  100% {opacity: 1; transform: translate(0px, 0px)}
+}
+
+@keyframes navegacao{
+  0% {opacity: 0;}
+  50% {opacity: 0}
+  100% {opacity: 1;}
 }
