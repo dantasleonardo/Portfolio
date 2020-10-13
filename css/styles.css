@@ -15,7 +15,7 @@ body{
   height: 50px;
 
   animation-name: navegacao;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .navigation ul{
@@ -98,7 +98,7 @@ body{
 
 
 .main {
-  padding: 80px 150px 80px 100px;
+  padding: 30px 150px 80px 100px;
 
   animation-name: conteudo;
   animation-duration: 2s;
