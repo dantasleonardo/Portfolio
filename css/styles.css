@@ -92,7 +92,7 @@ body{
 
 .profile-title h2{
   font-size: 22px;
-  margin-left: 40px;
+  margin-left: 100px;
   margin-top: -30px;
 }
 
@@ -245,9 +245,9 @@ body{
 }
 
 .profile-pic img{
-  margin-top: 100px;
-  margin-left: 350px;
-  max-width: 80%;
+  margin-top: 150px;
+  margin-left: 300px;
+  max-width: 100%;
 }
 
 .profile-title{
@@ -258,14 +258,14 @@ body{
 
 .profile-title h1{
   text-align: center;
-  margin-top: 30px;
-  font-size: 32px;
+  margin-top: 50px;
+  font-size: 64px;
 }
 
 .profile-title h2{
   margin-left: -10px;
   text-align: center;
-  font-size: 14px;
+  font-size: 32px;
   margin-top: 15px;
 }
 
@@ -280,7 +280,7 @@ body{
 }
 
 .caminho li{
-  font-size: 12px;
+  font-size: 18px;
 }
 
 /* Sobre*/
@@ -292,13 +292,12 @@ body{
 
 /* Social media*/
 .social-img{
-  width: 64px;
+  width: 128px;
   margin-right: 15px;
 }
 
 .blackbox{
   opacity: 0.7;
 }
-
 
 }
