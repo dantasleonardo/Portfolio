@@ -149,6 +149,7 @@ body{
 
 .caminho a{
   color: grey;
+  list-style: none;
 }
 
 .social-img{
@@ -198,6 +199,7 @@ body{
 
 .back-link{
   color: #2ce8f4;
+  text-decoration: none;
 }
 
 /* Animações*/
