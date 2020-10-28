@@ -225,7 +225,7 @@ body{
 }
 
 /* Resposividade com Media Query*/
-@media (max-width: 1000px){
+@media (max-width: 1200px){
 
 /* Tela inicial*/
 .navigation li{
@@ -300,6 +300,25 @@ body{
 
 .blackbox{
   opacity: 0.7;
+}
+
+/* Menu mobile*/
+.menujs {
+  height: auto;
+}
+
+.menujs ul {
+  height: auto;
+  text-align: center;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.menujs li{
+  display: block;
+  border-bottom: solid 2px;
+  width: 100%;
+  padding: 0;
 }
 
 }
