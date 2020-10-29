@@ -47,6 +47,10 @@ body{
   display: none;
 }
 
+.navigation li.threeline-icon:hover {
+  cursor: pointer;
+}
+
 .capa {
   color: #2ce8f4;  
 }
